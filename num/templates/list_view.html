@@ -1,0 +1,19 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+</head>
+<body>
+<table agline="center">
+    <div>
+        {% for data in dataset %}
+        {{ data.name}}</br>
+        {{ data.lnum}}</br>
+        {{ data.fnum}}
+        <hr/>
+        {% endfor %}
+    </div>
+</table>
+</body>
+</html>
